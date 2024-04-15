@@ -126,6 +126,8 @@
                         <source src="Bye_Bye_Bye.mp3" type="audio/mpeg">
                         <source src="Unravel_Ado.mp3" type="audio/mpeg">
                         <source src="Ussewaa_Sekai.mp3" type="audio/mpeg">
+                        <source src="Ifuudoudou.mp3" type="audio/mpeg">
+
     
                     </audio>
     
@@ -139,7 +141,7 @@
                             <div class="song" onclick="playAudio('Bye_Bye_Bye.mp3', 'Bye Bye Bye')">Bye Bye Bye</div>
                             <div class="song" onclick="playAudio('Unravel_Ado.mp3', 'Unravel Ado')">Unravel Ado</div>
                             <div class="song" onclick="playAudio('Ussewaa_Sekai.mp3', 'Ussewaa Sekai')">Ussewaa Sekai</div>
-                            <div class="song" onclick="playAudio('Ussewaa_Sekai.mp3', 'Ussewaa Sekai')">Ussewaa Sekai</div>
+                            <div class="song" onclick="playAudio('Ifuudoudou.mp3', 'Ifuudoudou')">Ifuudoudou</div>
     
                         </div>
                     </div>
@@ -321,7 +323,7 @@
     let song = document.getElementById("song");
     let currentSongIndex = 0;
     let ctrlIcon = document.getElementById("ctrlIcon");
-    let songList = ["Bye_Bye_Bye.mp3", "Unravel_Ado.mp3", "Ussewaa_Sekai.mp3" , "Ussewaa_Sekai.mp3" /* Agrega más nombres de archivo para las nuevas canciones */];
+    let songList = ["Bye_Bye_Bye.mp3", "Unravel_Ado.mp3", "Ussewaa_Sekai.mp3" , "Ifuudoudou.mp3" /* Agrega más nombres de archivo para las nuevas canciones */];
     
     
     song.onloadedmetadata = function(){
